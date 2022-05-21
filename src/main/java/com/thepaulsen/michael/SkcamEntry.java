@@ -1,5 +1,6 @@
 package com.thepaulsen.michael;
 
+import com.thepaulsen.michael.block.ModBlocks;
 import com.thepaulsen.michael.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -15,6 +16,6 @@ public class SkcamEntry implements ModInitializer{
         LOGGER.info("SKeleton_craft's Adveture Mod");
         LOGGER.warn("[note to self when upgrading to 1.19 run the vanilla version first]");
         ModItems.registerModItems();
-
+        ModBlocks.registerModBlocks();
     }
 }
