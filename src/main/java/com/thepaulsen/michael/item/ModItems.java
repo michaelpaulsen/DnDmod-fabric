@@ -10,6 +10,8 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     public static final Item MYTHRAIL_INGOT = registerItem("mythrail_ingot",
             new Item(new FabricItemSettings().maxCount(4).group(ItemGroup.MISC)));
+    public static final Item MYTHRAIL_NUGGIES = registerItem("mythrail_nugget",
+            new Item(new FabricItemSettings().maxCount(81).group(ItemGroup.MISC)));
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(SkcamEntry.MODID,name), item);
     }
