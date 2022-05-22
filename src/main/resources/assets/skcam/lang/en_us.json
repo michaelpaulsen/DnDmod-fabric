@@ -3,8 +3,9 @@
   "item.skcam.mythrail_nugget" : "Silver nugget",
   "item.skcam.mythrail_block" : "Silver Block",
 
+  "block.skcam.mythrail_block" : "Silver Block",
 
-
-
-  "block.skcam.mythrail_block" : "Silver Block"
+  "itemGroup.skcam.adventurers_blocks" : "Adventurer's Blocks",
+  "itemGroup.skcam.adventurers_items" : "Adventurer's Items",
+  "itemGroup.skcam.skc_minerals" : "§kAdventure's Ores§r"
 }

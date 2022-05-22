@@ -1,6 +1,7 @@
 package com.thepaulsen.michael.block;
 
 import com.thepaulsen.michael.SkcamEntry;
+import com.thepaulsen.michael.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -25,8 +26,8 @@ public class ModBlocks {
                 );
     }
     private static final Block MYTHRAIL_BLOCK = registerBlockWithItem("mythrail_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(12f).requiresTool().luminance(15)),
-            ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(12f).requiresTool().luminance(5)),
+            ModItemGroup.BLOCK_GROUP);
     public static void registerModBlocks(){
         SkcamEntry.LOGGER.info("loading mod blocks for " + SkcamEntry.MODID);
 

@@ -14,7 +14,9 @@ public class SkcamEntry implements ModInitializer{
         LOGGER.info("SKAM LOADED!!! [look mom I made a mod that does something]");
         LOGGER.info("skcam is not a scam skcam is skeleton_craft's adveture mod");
         LOGGER.info("SKeleton_craft's Adveture Mod");
-        LOGGER.warn("[note to self when upgrading to 1.19 run the vanilla version first]");
+        LOGGER.warn("[DEV_TIP when upgrading to 1.19 run the vanilla version first]");
+        LOGGER.warn("[DEV_TIP when upgrading your mod make note of the upgrade in both the gradle.properties ");
+        LOGGER.warn("and the fabric.mod.json files]");
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
     }
