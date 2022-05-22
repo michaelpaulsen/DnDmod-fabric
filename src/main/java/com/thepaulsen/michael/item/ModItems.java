@@ -1,3 +1,9 @@
+/*
+    SKCAM  Copyright (C) 2022  Skeleton_craft
+    This program comes with ABSOLUTELY NO WARRANTY.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; see license
+*/
 package com.thepaulsen.michael.item;
 
 import com.thepaulsen.michael.SkcamEntry;
