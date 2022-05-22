@@ -2,8 +2,10 @@
   "item.skcam.mythrail_ingot" : "Silver Ingot",
   "item.skcam.mythrail_nugget" : "Silver nugget",
   "item.skcam.mythrail_block" : "Silver Block",
+  "item.skcam.mythrail_ore" : "§dSilver ore I am good for §knothing§r",
 
   "block.skcam.mythrail_block" : "Silver Block",
+  "block.skcam.mythrail_ore" : "§dSilver ore §kI am good for nothing§r",
 
   "itemGroup.skcam.adventurers_blocks" : "Adventurer's Blocks",
   "itemGroup.skcam.adventurers_items" : "Adventurer's Items",

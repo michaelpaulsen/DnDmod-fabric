@@ -26,8 +26,13 @@ public class ModBlocks {
                 );
     }
     private static final Block MYTHRAIL_BLOCK = registerBlockWithItem("mythrail_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(12f).requiresTool().luminance(5)),
+            new Block(FabricBlockSettings.of(Material.METAL).strength(12f).requiresTool().luminance(8)),
             ModItemGroup.BLOCK_GROUP);
+    private static final Block MYTHRAIL_ORE = registerBlockWithItem("mythrail_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool().luminance(5)),
+            ModItemGroup.BLOCK_GROUP);
+    //the nice thing about starting dev in 1.18.2 is that if you want your ore to only spawn in deepslate
+    // you don't have to make a stone variant because it will never be used
     public static void registerModBlocks(){
         SkcamEntry.LOGGER.info("loading mod blocks for " + SkcamEntry.MODID);
 
