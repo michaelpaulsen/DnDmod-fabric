@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "skcam:mythrail_ingot"
+    }
+  },
+  "result": {
+    "item": "skcam:mythrail_block"
+  }
+}

@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item MYTHRAIL_INGOT = registerItem("mythrail_ingot",
-            new Item(new FabricItemSettings().maxCount(4).group(ModItemGroup.ITEM_GROUP)));
+            new Item(new FabricItemSettings().maxCount(64).group(ModItemGroup.ITEM_GROUP)));
     public static final Item MYTHRAIL_NUGGIES = registerItem("mythrail_nugget",
             new Item(new FabricItemSettings().maxCount(81).group(ModItemGroup.ITEM_GROUP)));
     private static Item registerItem(String name, Item item){
