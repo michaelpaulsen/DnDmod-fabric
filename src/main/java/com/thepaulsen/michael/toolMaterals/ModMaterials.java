@@ -12,6 +12,9 @@ import java.util.function.Supplier;
 public enum ModMaterials implements ToolMaterial {
     HOD_MAT(2,1024,0,10,44, () -> {
         return null;
+    }),
+    MYTHRIAL_MAT(5,2100,10,8,44, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{ModItems.MYTHRAIL_INGOT});
     });
 
     private final int miningLevel;

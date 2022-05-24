@@ -2,11 +2,16 @@
   "item.skcam.mythrail_ingot" : "Silver Ingot",
   "item.skcam.mythrail_nugget" : "Silver nugget",
   "item.skcam.mythrail_block" : "Silver Block",
-  "item.skcam.mythrail_ore" : "§dSilver ore I am good for §knothing§r",
+  "item.skcam.mythrail_ore" : "Silver ore",
+  "item.skcam.mythrail_hoe" : "Silver hoe",
+  "item.skcam.mythrail_shovel" : "Silver shovel",
+  "item.skcam.mythrail_pickaxe" : "Silver pickaxe",
+  "item.skcam.mythrail_axe" : "Silver axe",
+  "item.skcam.mythrail_sword" : "Silver sword",
   "item.skcam.hod" : "§4§kthe hoe of destruction§r",
 
   "block.skcam.mythrail_block" : "Silver Block",
-  "block.skcam.mythrail_ore" : "§dSilver ore §kI am good for nothing§r",
+  "block.skcam.mythrail_ore" : "Silver ore",
 
   "itemGroup.skcam.adventurers_blocks" : "Adventurer's Blocks",
   "itemGroup.skcam.adventurers_items" : "Adventurer's Items",
