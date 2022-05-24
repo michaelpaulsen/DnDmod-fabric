@@ -7,9 +7,10 @@
 package com.thepaulsen.michael.item;
 
 import com.thepaulsen.michael.SkcamEntry;
+import com.thepaulsen.michael.item.custom.HoeOfDestruction;
+import com.thepaulsen.michael.toolMaterals.ModMaterials;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -18,11 +19,12 @@ public class ModItems {
             new Item(new FabricItemSettings().maxCount(64).group(ModItemGroup.ITEM_GROUP)));
     public static final Item MYTHRAIL_NUGGIES = registerItem("mythrail_nugget",
             new Item(new FabricItemSettings().maxCount(81).group(ModItemGroup.ITEM_GROUP)));
+    public static final Item HOD = registerItem("hod",
+        new HoeOfDestruction(ModMaterials.HOD_MAT,1,10,new FabricItemSettings().group(ModItemGroup.ITEM_GROUP)));
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(SkcamEntry.MODID,name), item);
     }
     public static void registerModItems(){
         SkcamEntry.LOGGER.info("loading mod items for " + SkcamEntry.MODID);
-
     }
 }

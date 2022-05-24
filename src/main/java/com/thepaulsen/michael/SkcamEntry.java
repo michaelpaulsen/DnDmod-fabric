@@ -14,7 +14,9 @@ import org.slf4j.LoggerFactory;
 public class SkcamEntry implements ModInitializer{
     public static final String MODID = "skcam";
     public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
-
+    public static int secondsToticks(int seconds){
+        return seconds*20;
+    }
     @Override
     public void onInitialize() {
         LOGGER.info("SKAM LOADED!!! [look mom I made a mod that does something]");
