@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModMaterials implements ToolMaterial {
     HOD_MAT(2,1024,0,10,44, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{ModItems.MYTHRAIL_INGOT});
+        return null;
     });
 
     private final int miningLevel;
