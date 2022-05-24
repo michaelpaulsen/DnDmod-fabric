@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "skcam:mythrial_ore"
+    },
+    "result": "skcam:mythrial_ingot",
+    "experience": 1,
+    "cookingtime": 400
+}
