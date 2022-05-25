@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "skcam:double_commpressed_cobblestone"
+        }
+    },
+    "result": {
+        "item": "skcam:commpressed_cobblestone",
+        "count": 9
+    }
+}

@@ -1,8 +1,0 @@
-mythrail dark      color  7a7aff
-mythrail mid       color1 9d9dff
-mythrail mid       color2 a0a0ff
-mythrail mid       color3 a4a4ff
-mythrail light     color  a8a8ff
-mythrail highlight color  ababf0
-
-21.78 deg @ 23.78
