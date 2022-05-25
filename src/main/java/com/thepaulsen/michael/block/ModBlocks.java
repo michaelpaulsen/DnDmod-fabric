@@ -31,26 +31,26 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings().group(group))
                 );
     }
-    private static final Block MYTHRAIL_BLOCK = registerBlockWithItem("mythrail_block",
+    public static final Block MYTHRAIL_BLOCK = registerBlockWithItem("mythrail_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.4f).requiresTool().luminance(8)),
             ModItemGroup.BLOCK_GROUP);
-    private static final Block MYTHRAIL_ORE = registerBlockWithItem("mythrail_ore",
+    public static final Block MYTHRAIL_ORE = registerBlockWithItem("mythrail_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.2f).requiresTool().luminance(5)),
             ModItemGroup.BLOCK_GROUP);
     //the nice thing about starting dev in 1.18.2 is that if you want your ore to only spawn in deepslate
     // you don't have to make a stone variant because it will never be used
-    private static final Block COMPRESSED_COBBLESTONE = registerBlockWithItem("commpressed_cobblestone",
+    public static final Block COMPRESSED_COBBLESTONE = registerBlockWithItem("commpressed_cobblestone",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()),
             ModItemGroup.BLOCK_GROUP);
-    private static final Block DOUBLE_COMPRESSED_COBBLESTONE = registerBlockWithItem("double_commpressed_cobblestone",
+    public static final Block DOUBLE_COMPRESSED_COBBLESTONE = registerBlockWithItem("double_commpressed_cobblestone",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()),
             ModItemGroup.BLOCK_GROUP);
-    private static final Block TRIPLE_COMPRESSED_COBBLESTONE = registerBlockWithItem("triple_commpressed_cobblestone",
+    public static final Block TRIPLE_COMPRESSED_COBBLESTONE = registerBlockWithItem("triple_commpressed_cobblestone",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()),
             ModItemGroup.BLOCK_GROUP);
 
 
-    public static void registerModBlocks(){
+    private static void registerModBlocks(){
         SkcamEntry.LOGGER.info("loading mod blocks for " + SkcamEntry.MODID);
 
     }

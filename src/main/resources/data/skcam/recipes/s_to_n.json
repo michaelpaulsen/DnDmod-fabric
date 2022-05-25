@@ -1,11 +1,12 @@
-
-"type": "minecraft:crafting_shapeless",
-"ingredients": [
 {
-"item": "skcam:cmp_cobblestone"
-}
-],
-"result": {
-"item": "minecraft:cobblestone",
-"count": 9
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skcam:commpressed_cobblestone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cobblestone",
+    "count": 9
+  }
 }

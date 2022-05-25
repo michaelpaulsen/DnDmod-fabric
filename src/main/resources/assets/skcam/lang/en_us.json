@@ -16,6 +16,10 @@
 
   "block.skcam.mythrail_block" : "Silver Block",
   "block.skcam.mythrail_ore" : "Silver ore",
+  "block.skcam.commpressed_cobblestone" : "compressed cobblestone",
+  "block.skcam.double_commpressed_cobblestone" : "double compressed cobblestone",
+  "block.skcam.triple_commpressed_cobblestone" : "triple compressed cobblestone",
+
 
   "itemGroup.skcam.adventurers_blocks" : "Adventurer's Blocks",
   "itemGroup.skcam.adventurers_items" : "Adventurer's Items",
