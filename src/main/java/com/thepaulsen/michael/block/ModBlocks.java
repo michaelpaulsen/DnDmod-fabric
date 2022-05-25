@@ -39,6 +39,17 @@ public class ModBlocks {
             ModItemGroup.BLOCK_GROUP);
     //the nice thing about starting dev in 1.18.2 is that if you want your ore to only spawn in deepslate
     // you don't have to make a stone variant because it will never be used
+    private static final Block COMPRESSED_COBBLESTONE = registerBlockWithItem("commpressed_cobblestone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()),
+            ModItemGroup.BLOCK_GROUP);
+    private static final Block DOUBLE_COMPRESSED_COBBLESTONE = registerBlockWithItem("double_commpressed_cobblestone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()),
+            ModItemGroup.BLOCK_GROUP);
+    private static final Block TRIPLE_COMPRESSED_COBBLESTONE = registerBlockWithItem("triple_commpressed_cobblestone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()),
+            ModItemGroup.BLOCK_GROUP);
+
+
     public static void registerModBlocks(){
         SkcamEntry.LOGGER.info("loading mod blocks for " + SkcamEntry.MODID);
 

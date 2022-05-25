@@ -9,6 +9,10 @@
   "item.skcam.mythrail_axe" : "Silver axe",
   "item.skcam.mythrail_sword" : "Silver sword",
   "item.skcam.hod" : "§4§kthe hoe of destruction§r",
+  "item.skcam.commpressed_cobblestone" : "compressed cobblestone",
+  "item.skcam.double_commpressed_cobblestone" : "double compressed cobblestone",
+  "item.skcam.triple_commpressed_cobblestone" : "triple compressed cobblestone",
+
 
   "block.skcam.mythrail_block" : "Silver Block",
   "block.skcam.mythrail_ore" : "Silver ore",
